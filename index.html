@@ -1,0 +1,31 @@
+<HTML>
+    <HEAD>
+    <META NAME="GENERATOR" Content="Microsoft Visual Studio" charset="utf-8">
+    <TITLE></TITLE> 
+    </HEAD>
+    <BODY> 
+       
+       
+        <!--<object id="ax" width="100%" height="96%" classid="CLSID:d0511531-6350-473e-9d47-e158eb0c3f5b"></object>-->
+        <object id="ax" width="100%" height="96%" classid="CLSID:95c1ec7f-cec0-492a-83f5-e2c2d4397da2"></object>
+        <input type="button" value="打开摄像头" onclick="open1()">  
+        <input type="button" value="拍照" onclick="capture1()">  
+        <input type="button" value="关闭摄像头" onclick="close1()"> 
+        <script type="text/javascript">
+            var axObject = document.getElementById('ax');
+          function open1(){
+                ax.slots_out_open();
+
+
+          }
+          function close1(){
+            ax.slots_out_close();
+
+          }
+          function capture1(){
+               var ss= ax.slots_out_Screenshot();
+
+          }
+        </script>
+    </BODY> 
+    </HTML>
