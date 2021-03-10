@@ -1,0 +1,20 @@
+<UI version="4.0" >
+ <class>CaptruePlugClass</class>
+ <widget class="QWidget" name="CaptruePlugClass" >
+  <property name="objectName" >
+   <string notr="true">CaptruePlugClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>CaptruePlug</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+</UI>
